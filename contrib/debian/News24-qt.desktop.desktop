@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=News24Coin
+Comment=News24Coin P2P Cryptocurrency
+Exec=News24-qt %u
+Terminal=false
+Type=Application
+Icon=News24128
+MimeType=x-scheme-handler/News24;
+Categories=Office;Finance;
+Name[es]=News24-qt.desktop

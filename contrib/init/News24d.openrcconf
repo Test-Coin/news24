@@ -1,0 +1,26 @@
+# /etc/conf.d/News24d: config file for /etc/init.d/News24d
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/News24/News24.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/News24d"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/News24d.pid"
+
+# Where to write News24d data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/News24d"
+
+# User and group to own News24d process
+#BITCOIND_USER="News24"
+#BITCOIND_GROUP="News24"
+
+# Path to News24d executable
+#BITCOIND_BIN="/usr/bin/News24d"
+
+# Nice value to run News24d under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
